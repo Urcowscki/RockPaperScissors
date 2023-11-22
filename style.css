@@ -5,8 +5,9 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f0f0;
+  background: hsl(217, 30%, 73%);
 }
+
 .jokenpo {
   display: flex;
   justify-content: center;
@@ -15,7 +16,7 @@ body {
   border: 2px solid #333;
   padding: 20px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: whitesmoke;
 }
 .btn {
   cursor: pointer;
@@ -30,12 +31,14 @@ body {
   margin: 4px 2px;
   transition-duration: 0.4s;
   border-radius: 12px;
+  background-color: t;
 }
 .btn:hover {
-  background-color: white;
+  background-color: #1c3c45;
   color: black;
   border: 2px solid #1c3c45;
 }
+
 #resultado {
   font-size: 20px;
   margin-top: 20px;
