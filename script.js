@@ -1,6 +1,6 @@
 function jokenpo(escolha) {
   const opcoes = ['pedra', 'papel', 'tesoura'];
-  const escolhaComputador = opcoes[Math.floor(Math.random() * opcoes.length)];
+  const escolhaComputador = opcoes[Math.floor(Math.random() * 3 + 1)];
 
   if (escolha === escolhaComputador) {
     document.getElementById(
